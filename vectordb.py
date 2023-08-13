@@ -9,7 +9,7 @@ import pinecone
 
 def add_docs_to_vectordb(path):
     PINECONE_API_KEY=''
-    embeddings = OpenAIEmbeddings(openai_api_key="")
+    embeddings = OpenAIEmbeddings(openai_api_key="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")
     pinecone.init(
         api_key=PINECONE_API_KEY,  # find at app.pinecone.io
         environment=""
