@@ -20,7 +20,7 @@ from langchain.prompts.chat import (
     )
 
 def summarize(text):
-    llm = OpenAI(temperature=0.5,openai_api_key="")
+    llm = OpenAI(temperature=0.5,openai_api_key="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")
     from langchain.text_splitter import CharacterTextSplitter
     text_splitter = CharacterTextSplitter()
     from langchain.chains.mapreduce import MapReduceChain
